@@ -15,12 +15,13 @@
 .header{
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
     padding: 2% 5% 2% 5%;
 }
 .nav{
     display: flex;
     gap: 50px;
+    font-size: 16px;
 }
 .nav > li{
     list-style: none;
@@ -33,4 +34,13 @@
 .nav > li > a:hover{
     color: #3FBA96;
     transition: 0.3s;
+}
+
+.header-login-button{
+    padding: 12px 46px 12px 46px;
+    background-color: #3FBA96;
+    border: none;
+    border-radius: 0px;
+    color: white;
+    font-size: 16px;
 }
